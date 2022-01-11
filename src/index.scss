@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+:root {
+  --urbanist: 'Urbanist', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: var(--urbanist);
+  overflow-y: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: 0;
+}
+
+input,
+select,
+textarea {
+  border: none;
+  font-size: 1rem;
+  padding: 8px;
+  border-radius: 3px;
+  font-family: var(--urbanist);
+  outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
